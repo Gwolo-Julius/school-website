@@ -15,7 +15,8 @@
   --white: #fff;
   --primary-clr: #121212;
   --overlay-clr: #000f984d;
-  --main-clr: #212EA0;
+  --main-clr: #212ea0;
+  --text-clr: #676767;
 }
 .container {
   padding-left: 10%;
@@ -30,6 +31,21 @@
   border-radius: 2rem;
   font-weight: 600;
   cursor: pointer;
+}
+
+.btn.dark-btn {
+  background-color: var(--main-clr);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem 1.8rem;
+  border-radius: 3rem;
+  border: none;margin: auto;
+  cursor: pointer;color: var(--white);
+}
+
+.btn.dark-btn img{
+  width: 23px;
 }
 /* @@@@@@@@@@@ GENERAL RESET @@@@@@@@@@@@@ */
 /* @@@@@@@@@@@ GENERAL RESET @@@@@@@@@@@@@ */

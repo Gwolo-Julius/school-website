@@ -1,0 +1,68 @@
+.testimonial {
+  margin: 40px auto;
+  padding: 0 40px;
+  position: relative;
+}
+
+.back-btn,
+.next-btn {
+  background-color: var(--main-clr);
+  border-radius: 50%;
+  width: 50px;
+  /* display: flex; */
+  cursor: pointer;
+  position: absolute;
+  padding: 15px;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.next-btn {
+  right: 0;
+  left: auto;
+}
+
+.slider {
+  overflow: hidden;
+}
+
+.slider ul {
+  display: flex;
+  width: 200%;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.slider ul li {
+  width: 50%;
+  padding: 20px;
+}
+
+.slide {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  padding: 30px;
+  border-radius: 10px;
+  line-height: 1.5;
+}
+
+.slide p {
+  color: var(--text-clr);
+}
+
+.slide img {
+  border-radius: 50%;
+  margin-right: 10px;
+  width: 65px;
+  border: 4px solid var(--main-clr);
+}
+
+.user_info {
+  display: flex;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.user_info h3 {
+  color: var(--main-clr);
+}

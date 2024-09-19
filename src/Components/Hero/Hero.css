@@ -6,7 +6,8 @@
   background-size: cover;
   background-position: center;
   color: var(--white);
-  display: flex;justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .hero-text {
@@ -15,9 +16,26 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+
+  max-width: 800px;
 }
 
-.hero-text h1{
+.hero-text h1 {
   font-size: 3.75rem;
+}
+
+.hero-text p {
+  max-width: 700px;
+  margin: 10px auto 32px;
+  line-height: 1.5;
+}
+
+.hero_btn {
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+}
+
+.hero_btn img {
+  width: 20px;
 }

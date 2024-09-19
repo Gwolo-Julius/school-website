@@ -1,0 +1,46 @@
+.programs {
+  width: 90%;
+  margin: 80px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 1rem; */
+}
+
+.program {
+  flex-basis: 31.5%;
+  position: relative;
+}
+.program img {
+  display: block;
+  width: 100%;
+  border-radius: 0.625rem;
+}
+
+.caption {
+  position: absolute;
+  border-radius: 0.625rem;
+  inset: 0;
+  top: 0;
+  background: var(--overlay-clr);
+  color: var(--white);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  opacity: 0;
+  padding-top: 70%;
+  transition: 0.4s;
+
+}
+
+.caption img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.program:hover .caption {
+  padding-top: 0;
+  opacity: 1;
+}

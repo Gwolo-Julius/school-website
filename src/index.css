@@ -14,6 +14,8 @@
 :root {
   --white: #fff;
   --primary-clr: #121212;
+  --overlay-clr: #000f984d;
+  --main-clr: #212EA0;
 }
 .container {
   padding-left: 10%;

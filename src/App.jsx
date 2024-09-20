@@ -9,6 +9,7 @@ import About from "./Components/About/About";
 import Gallery from "./Components/Gallery/Gallery";
 import Testimonial from "./Components/Testimonial/Testimonial";
 import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Testimonial />
         <Title subTitle="Contact Us" title="Get in Touch" />
         <Contact />
+        <Footer/>
       </div>
     </>
   );

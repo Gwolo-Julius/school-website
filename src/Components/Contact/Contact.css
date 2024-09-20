@@ -36,6 +36,27 @@
   margin: 20px 0;
 }
 
-.contact-col ul li img{
-  width: 20px;margin-right: 10px;
+.contact-col ul li img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.contact form input,
+.contact form textarea {
+  background-color: #efecfe;
+  border: none;
+  width: 100%;
+  padding: 15px;
+  border-radius: 0.4rem;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.form-btn {
+  align-self: start;
+}
+.contact-col span {
+  margin: 20px 0;
+  display: block;
+  color: green;
 }
